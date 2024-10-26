@@ -1,0 +1,89 @@
+body {
+    background-image: url(savana.jpg);
+    color: #4d4d4d; /* Dark grey text */
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+marquee {
+    color: #f8ba0d; /* Yellow water color */
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+h1 {
+    color: #d3bf0bd8; /* Extra white color */
+    text-align: center;
+}
+
+p {
+    color: #130909; /* White color */
+    
+    background-color: hsla(120, 100%, 50%, 0.5); /* Green with 50% transparency */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+form {
+    background-image: url(back.jpg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.fieldset {
+    border: 2px solid #e0a25a; /* Light amber border */
+    padding: 10px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+legend {
+    color: none; /* Amber color */
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+/* .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 50%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: 1px solid #f7b603; /* Light amber border */
+    border-radius: 4px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #057c1f; /* Dark amber button */
+    color: #e0d20e;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1a0f01; /* Darker amber on hover */
+}
+
+a {
+    color: #7c5c2a; /* Dark amber links */
+}
+
+a:hover {
+    text-decoration: underline;
+}
